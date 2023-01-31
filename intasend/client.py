@@ -37,5 +37,5 @@ class APIBase(object):
 
     def get_headers(self):
         return {
-            "Authorization": f"Bearer {self.token}"
+            "Bearer": f"{self.token}"
         }
